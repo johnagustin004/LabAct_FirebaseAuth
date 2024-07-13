@@ -35,7 +35,6 @@ export default function Navbar() {
 
           {user && (
               <>
-              hello, {user.displayName}
               <button className="btn" onClick={handleLogout}>Logout</button>
               </>
           )}
